@@ -1,0 +1,24 @@
+<!DOCTYPE Html>
+<html>
+<head>
+
+</head>
+<body>
+	Enter Number: <input type="number" id="number"/>
+	<button onclick="findFactorial()">Calculate</button>
+
+	<script>
+	function findFactorial(){
+
+		var num = document.getElementById("number").value;
+		var fact = 1;
+		
+		for (i = 1; i <= num; i++){
+ 			
+			fact = fact * i;
+			document.write(fact+"<br>");
+		}
+	}
+</script>
+</body>
+</html>
